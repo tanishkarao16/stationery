@@ -24,7 +24,7 @@ if(!isset($user_id)){
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
    <!-- custom css file link  -->
-   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="style1.css">
 
 </head>
 <body>
@@ -77,7 +77,6 @@ if(!isset($user_id)){
 
 <?php include 'footer.php'; ?>
 
-<!-- custom js file link  -->
 <script src="script.js"></script>
 
 </body>
