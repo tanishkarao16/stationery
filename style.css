@@ -339,22 +339,23 @@ html{
     display: grid;
     grid-template-columns: repeat(auto-fit, 30rem);
     align-items: flex-start;
-    gap:1.5rem;
+    gap:4rem;
     justify-content: center;
  }
  
  .products .box-container .box{
-    border-radius: .5rem;
+    border-radius: 1rem;
     background-color: var(--white);
     box-shadow: var(--box-shadow);
     padding:2rem;
     text-align: center;
-    border:var(--border);
+    border: rgba(0, 0, 0, 0.3);
     position: relative;
  }
  
  .products .box-container .box .image{
     height: 30rem;
+    width: -webkit-fill-available;
  }
  
  .products .box-container .box .name{
@@ -379,7 +380,7 @@ html{
     padding:1rem;
     font-size: 2.5rem;
     color:var(--white);
-    background-color: var(--red);
+    background-color: teal;
  }
  
  .about .flex{
@@ -392,6 +393,7 @@ html{
  
  .about .flex .image{
     flex:1 1 40rem;
+    height: auto;
  }
  
  .about .flex .image img{
