@@ -56,6 +56,31 @@ if(isset($_POST['add_to_cart'])){
    </div>
 
 </section>
+<section id="feature" class="section-p1">
+
+        <div class="fe-box">
+            <i class="fa-solid fa-plane-up fa-5x" ></i>
+            <h5>FREE SHIPPING</h5>
+        </div>
+
+        <div class="fe-box">
+            <i class="fa-solid fa-wallet fa-5x"></i>
+            <h5>EASY PAYMENT</h5>
+        </div>
+
+
+        <div class="fe-box">
+            <i class="fa-regular fa-file-lines fa-5x" ></i>
+            <h5>GST INVOICE</h5>
+        </div>
+
+        <div class="fe-box">
+            <i class="fa-solid fa-truck fa-5x" ></i>
+            <h5>PAN INDIA DELIVERY</h5>
+        </div>
+
+
+    </section>
 
 <section class="products">
 
@@ -114,7 +139,6 @@ if(isset($_POST['add_to_cart'])){
 
    <div class="content">
       <h3>have any questions?</h3>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque cumque exercitationem repellendus, amet ullam voluptatibus?</p>
       <a href="contact.php" class="white-btn">contact us</a>
    </div>
 
