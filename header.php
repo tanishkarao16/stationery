@@ -11,7 +11,7 @@ if(isset($message)){
 }
 ?>
 
-<header class="header">
+<header class=" header">
 
    <div class="header-1">
       <div class="flex">
@@ -25,16 +25,16 @@ if(isset($message)){
       </div>
    </div>
 
-   <div class="header-2">
+   <div class="header-2 navbar bg-light">
       <div class="flex">
-         <a href="home.php" class="logo">STATIONERY</a>
+         <a href="login.php"><img src="img/logo.jpeg" width="100px" class="logo" alt="Image of the logo"></a>
 
          <nav class="navbar">
-            <a href="home.php">home</a>
-            <a href="about.php">about</a>
-            <a href="shop.php">shop</a>
-            <a href="contact.php">contact</a>
-            <a href="orders.php">orders</a>
+            <a href="home.php">Home</a>
+            <a href="about.php">About</a>
+            <a href="shop.php">Shop</a>
+            <a href="contact.php">Contact</a>
+            <a href="orders.php">Orders</a>
          </nav>
 
          <div class="icons">
