@@ -19,11 +19,31 @@ if(!isset($user_id)){
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>about</title>
+   <style>
+      body {
+        background-color: #f7f7f7;
+      }
+      p{
+         font-size: 15px;
+         padding: auto 10px;
+      }
+      h1, h2, h3, h4, h5, h6 {
+        color: #008080;
+        
+      }
+      .btn {
+        background-color: #f5d9e0;
+        border-color: #008080;
+      }
+      .btn:hover, .btn:focus {
+        background-color: #008080;
+        color: #fff;
+      }
+    </style>
 
-   <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-   <!-- custom css file link  -->
    <link rel="stylesheet" href="style.css">
 
 </head>
@@ -36,117 +56,16 @@ if(!isset($user_id)){
    <p> <a href="home.php">home</a> / about </p>
 </div>
 
-<section class="about">
-
-   <div class="flex">
-
-      <div class="image">
-         <img src="images/about-img.jpg" alt="">
-      </div>
-
-      <div class="content">
-         <h3>why choose us?</h3>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet voluptatibus aut hic molestias, reiciendis natus fuga, cumque excepturi veniam ratione iure. Excepturi fugiat placeat iusto facere id officia assumenda temporibus?</p>
-         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit quos enim minima ipsa dicta officia corporis ratione saepe sed adipisci?</p>
-         <a href="contact.php" class="btn">contact us</a>
-      </div>
-
-   </div>
-
-</section>
-
-<section class="reviews">
-
-   <h1 class="title">client's reviews</h1>
-
-   <div class="box-container">
-
-      <div class="box">
-         <img src="images/pic-1.png" alt="">
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ad, quo labore fugiat nam accusamus quia. Ducimus repudiandae dolore placeat.</p>
-         <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
-         </div>
-         <h3>john deo</h3>
-      </div>
-
-      <div class="box">
-         <img src="images/pic-2.png" alt="">
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ad, quo labore fugiat nam accusamus quia. Ducimus repudiandae dolore placeat.</p>
-         <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
-         </div>
-         <h3>john deo</h3>
-      </div>
-
-      <div class="box">
-         <img src="images/pic-3.png" alt="">
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ad, quo labore fugiat nam accusamus quia. Ducimus repudiandae dolore placeat.</p>
-         <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
-         </div>
-         <h3>john deo</h3>
-      </div>
-
-      <div class="box">
-         <img src="images/pic-4.png" alt="">
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ad, quo labore fugiat nam accusamus quia. Ducimus repudiandae dolore placeat.</p>
-         <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
-         </div>
-         <h3>john deo</h3>
-      </div>
-
-      <div class="box">
-         <img src="images/pic-5.png" alt="">
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ad, quo labore fugiat nam accusamus quia. Ducimus repudiandae dolore placeat.</p>
-         <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
-         </div>
-         <h3>john deo</h3>
-      </div>
-
-      <div class="box">
-         <img src="images/pic-6.png" alt="">
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ad, quo labore fugiat nam accusamus quia. Ducimus repudiandae dolore placeat.</p>
-         <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
-         </div>
-         <h3>john deo</h3>
-      </div>
-
-   </div>
-
-</section>
+    <div class="container mt-5">
+      <p>Welcome to our stationery website! We are a small, independent business that specializes in offering a wide selection of high-quality pens, pencils, and other office supplies. Our goal is to provide our customers with the best shopping experience possible, from the moment they visit our website until their order arrives at their doorstep.</p>
+      <p>We pride ourselves on our excellent customer service and fast shipping. If you have any questions or concerns about your order, don't hesitate to reach out to us. We are always happy to help.</p>
+      <p>Thank you for considering us for all of your stationery needs. We hope to see you again soon!</p>
+      <a href="#" class="btn btn-primary mt-5">Contact Us</a>
+    </div>
 
 
 <?php include 'footer.php'; ?>
 
-<!-- custom js file link  -->
 <script src="script.js"></script>
 
 </body>
