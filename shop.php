@@ -83,7 +83,7 @@ if(isset($_POST['add_to_cart'])){
       ?>
    </div>
 
-</sectionp
+   </section>
 
 
 

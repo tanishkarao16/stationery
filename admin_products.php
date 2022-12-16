@@ -92,8 +92,10 @@ if(isset($_POST['update_product'])){
    <title>products</title>
 
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+   
 
-   <link rel="stylesheet" href="admin_style.css">
+   <link rel="stylesheet" href="admin_style1.css">
 
 </head>
 <body>
@@ -102,10 +104,10 @@ if(isset($_POST['update_product'])){
 
 <section class="add-products">
 
-   <h1 class="title">shop products</h1>
+   <h1 class="title">Shop Products</h1>
 
    <form action="" method="post" enctype="multipart/form-data">
-      <h3>add product</h3>
+      <h3>Add Product</h3>
       <input type="text" name="name" class="box" placeholder="enter product name" required>
       <input type="number" min="0" name="price" class="box" placeholder="enter product price" required>
       <input type="file" name="image" accept="image/jpg, image/jpeg, image/png" class="box" required>
@@ -127,7 +129,7 @@ if(isset($_POST['update_product'])){
       <div class="box">
          <img src="uploaded_img/<?php echo $fetch_products['image']; ?>" alt="">
          <div class="name"><?php echo $fetch_products['name']; ?></div>
-         <div class="price">$<?php echo $fetch_products['price']; ?>/-</div>
+         <div class="price">Rs.<?php echo $fetch_products['price']; ?>/-</div>
          <a href="admin_products.php?update=<?php echo $fetch_products['id']; ?>" class="option-btn">update</a>
          <a href="admin_products.php?delete=<?php echo $fetch_products['id']; ?>" class="delete-btn" onclick="return confirm('delete this product?');">delete</a>
       </div>

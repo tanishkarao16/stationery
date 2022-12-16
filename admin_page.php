@@ -20,11 +20,9 @@ if(!isset($admin_id)){
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Admin Panel</title>
 
-   <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
-   <!-- custom admin css file link  -->
-   <link rel="stylesheet" href="admin_style.css">
+   <link rel="stylesheet" href="admin_style1.css">
 
 
 
@@ -54,8 +52,8 @@ if(!isset($admin_id)){
                };
             };
          ?>
-         <h3>$<?php echo $total_pendings; ?>/-</h3>
-         <p>total pendings</p>
+         <h3>Rs.<?php echo $total_pendings; ?>/-</h3>
+         <p>Total Pendings</p>
       </div>
 
       <div class="box">
@@ -69,8 +67,8 @@ if(!isset($admin_id)){
                };
             };
          ?>
-         <h3>$<?php echo $total_completed; ?>/-</h3>
-         <p>completed payments</p>
+         <h3>Rs.<?php echo $total_completed; ?>/-</h3>
+         <p>Completed Payments</p>
       </div>
 
       <div class="box">
@@ -79,7 +77,7 @@ if(!isset($admin_id)){
             $number_of_orders = mysqli_num_rows($select_orders);
          ?>
          <h3><?php echo $number_of_orders; ?></h3>
-         <p>order placed</p>
+         <p>Order Placed</p>
       </div>
 
       <div class="box">
@@ -88,7 +86,7 @@ if(!isset($admin_id)){
             $number_of_products = mysqli_num_rows($select_products);
          ?>
          <h3><?php echo $number_of_products; ?></h3>
-         <p>products added</p>
+         <p>Products Added</p>
       </div>
 
       <div class="box">
@@ -97,7 +95,7 @@ if(!isset($admin_id)){
             $number_of_users = mysqli_num_rows($select_users);
          ?>
          <h3><?php echo $number_of_users; ?></h3>
-         <p>normal users</p>
+         <p>Normal Users</p>
       </div>
 
       <div class="box">
@@ -106,7 +104,7 @@ if(!isset($admin_id)){
             $number_of_admins = mysqli_num_rows($select_admins);
          ?>
          <h3><?php echo $number_of_admins; ?></h3>
-         <p>admin users</p>
+         <p>Admin Users</p>
       </div>
 
       <div class="box">
@@ -115,7 +113,7 @@ if(!isset($admin_id)){
             $number_of_account = mysqli_num_rows($select_account);
          ?>
          <h3><?php echo $number_of_account; ?></h3>
-         <p>total accounts</p>
+         <p>Total Accounts</p>
       </div>
 
       <div class="box">
@@ -124,7 +122,7 @@ if(!isset($admin_id)){
             $number_of_messages = mysqli_num_rows($select_messages);
          ?>
          <h3><?php echo $number_of_messages; ?></h3>
-         <p>new messages</p>
+         <p>New Messages</p>
       </div>
 
    </div>

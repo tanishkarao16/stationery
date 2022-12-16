@@ -3,7 +3,7 @@
 :root{
    --purple:teal;
    --red:#c0392b;
-   --orange:#f39c12;
+   --orange:teal;
    --black:#333;
    --white:#fff;
    --light-color:#666;
@@ -67,7 +67,7 @@ section{
    border:var(--border);
    background-color: var(--white);
    color:var(--red);
-   font-size: 2rem;
+   font-size: 10rem;
 }
 
 .message{
@@ -329,7 +329,7 @@ section{
 }
 
 .show-products .box-container .box img{
-   height: 30rem;
+   height: 25rem;
 }
 
 .show-products .box-container .box .name{

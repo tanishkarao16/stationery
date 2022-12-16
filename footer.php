@@ -88,7 +88,7 @@ footer .copyright{
         </div>
         <div class="col">
             <h4>My Account</h4>
-            <a href="#">Sign In</a>
+            <a href="login.php">Sign In</a>
             <a href="#">View Cart</a>
             <a href="#">My Wishlist</a>
             <a href="#">Track my Order</a>

@@ -37,7 +37,7 @@ if(isset($_GET['delete'])){
 
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
-   <link rel="stylesheet" href="admin_style.css">
+   <link rel="stylesheet" href="admin_style1.css">
   
 </head>
 <body>
@@ -62,7 +62,7 @@ if(isset($_GET['delete'])){
          <p> email : <span><?php echo $fetch_orders['email']; ?></span> </p>
          <p> address : <span><?php echo $fetch_orders['address']; ?></span> </p>
          <p> total products : <span><?php echo $fetch_orders['total_products']; ?></span> </p>
-         <p> total price : <span>$<?php echo $fetch_orders['total_price']; ?>/-</span> </p>
+         <p> total price : <span>Rs.<?php echo $fetch_orders['total_price']; ?>/-</span> </p>
          <p> payment method : <span><?php echo $fetch_orders['method']; ?></span> </p>
          <form action="" method="post">
             <input type="hidden" name="order_id" value="<?php echo $fetch_orders['id']; ?>">
