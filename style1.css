@@ -1,5 +1,5 @@
 :root{
-    --purple:#8e44ad;
+    --purple:TEAL;
     --red:#c0392b;
     --orange:#f39c12;
     --black:#333;
@@ -11,7 +11,7 @@
     --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
  }
  
-html{
+ html{
     font-size: 62.5%;
     overflow-x: hidden;
  }
@@ -19,11 +19,69 @@ html{
  section{
     padding:3rem 2rem;
  }
-
- .header-2
-
-
-.form-container{
+ 
+ 
+ #hero{
+    background-image: url(img/hero.jpg);
+    
+    height: 90vh;
+    width: auto;
+    background-position: top 25% right 0%;
+    background-size: cover;
+    padding: 0 80px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+ }
+ 
+ #hero h1{
+    margin-top: 25px;
+    font-size: 50px;
+    margin-bottom: 0;
+   
+    
+ }
+ #hero h2{
+    margin-top: 30px;
+    font-size: 40px;
+    margin-bottom: 10px;
+ }
+ 
+ #hero h4{
+    margin-top: 10px;
+    color: #088178;
+    font-size: 35px;
+    margin-bottom: 5px;
+ }
+ #hero p{
+    margin-top: 20px;
+    color: black;
+    font-size: 35px;
+    margin-bottom: 40px;
+ 
+ }
+ 
+ #hero button,
+ #hero a{
+    background-color: lightgray;
+    border-radius: 10px;
+    color: #088178;
+    border: 0;
+    padding: 10px 20px 10px 20px ;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 30px;
+    text-decoration: none;
+    display: inline-block;
+ } 
+ #hero button,
+ #hero a:hover{
+    text-decoration: underline;
+ }
+ 
+ .form-container{
     min-height: 100vh;
     background-color: lightblue;
     display: flex;
@@ -75,8 +133,8 @@ html{
     color: black;
  }
  
-
-.title{
+ 
+ .title{
     text-align: center;
     margin-bottom: 2rem;
     text-transform: uppercase;
@@ -124,7 +182,7 @@ html{
  }
  
  
-.header .header-1{
+ .header .header-1{
     background-color: var(--light-bg);
  }
  
@@ -160,7 +218,7 @@ html{
  }
  .flex{
    width: 100%;
-
+ 
  }
  
  .header .header-1 .flex .share a{
@@ -170,7 +228,7 @@ html{
  }
  
  .header .header-1 .flex .share a:hover{
-    color:var(--purple);
+    color:TEAL;
  }
  
  .header .header-1 .flex p{
@@ -179,11 +237,12 @@ html{
  }
  
  .header .header-1 .flex p a{
-    color:var(--purple);
+    color:teal;
+    text-decoration: none;
  }
  
  .header .header-1 .flex p a:hover{
-    text-decoration: underline;
+    text-decoration: none;
  }
  
  .header .header-2 .flex .logo{
@@ -195,6 +254,7 @@ html{
     margin:0 1rem;
     font-size: 2rem;
     color:var(--light-color);
+    text-decoration: none;
  }
  
  .header .header-2 .flex .navbar a:hover{
@@ -283,22 +343,23 @@ html{
     display: grid;
     grid-template-columns: repeat(auto-fit, 30rem);
     align-items: flex-start;
-    gap:1.5rem;
+    gap:4rem;
     justify-content: center;
  }
  
  .products .box-container .box{
-    border-radius: .5rem;
+    border-radius: 1rem;
     background-color: var(--white);
     box-shadow: var(--box-shadow);
     padding:2rem;
     text-align: center;
-    border:var(--border);
+    border: rgba(0, 0, 0, 0.3);
     position: relative;
  }
  
  .products .box-container .box .image{
     height: 30rem;
+    width: -webkit-fill-available;
  }
  
  .products .box-container .box .name{
@@ -323,7 +384,7 @@ html{
     padding:1rem;
     font-size: 2.5rem;
     color:var(--white);
-    background-color: var(--red);
+    background-color: teal;
  }
  
  .about .flex{
@@ -336,6 +397,7 @@ html{
  
  .about .flex .image{
     flex:1 1 40rem;
+    height: auto;
  }
  
  .about .flex .image img{
@@ -522,7 +584,7 @@ html{
     width: 100%;
     border:var(--border);
     background-color: var(--white);
-    padding:1.2rem 1.4rem;
+    padding:1.2rem .2rem;
     font-size: 1.8rem;
     color:var(--black);
     border-radius: .5rem;
@@ -708,7 +770,7 @@ html{
     border-radius: .5rem;
     width: 100%;
     background-color: var(--white);
-    padding:1.2rem 1.4rem;
+    padding:1.2rem .2rem;
     font-size: 1.8rem;
     margin:1rem 0;
  }
@@ -885,3 +947,219 @@ html{
     }
  
  }
+ 
+ .heading{
+    width: fit-content;
+    margin: 30px auto;
+    text-transform: capitalize;
+ }
+ 
+ .heading h3{
+    font-size: 50px;
+    font-family: sans-serif;
+    
+ 
+ }
+ 
+ .heading a{
+    color: teal;
+    text-decoration: none;
+ }
+ 
+ .heading p{
+    text-align: center;
+    font-size: 20px;
+    
+ }
+ 
+ .section-p1{
+    padding: 40px 80px;
+ }
+ 
+ #feature .fe-box{
+    width: 180px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.2);
+    border: 1px solid #cce7d0;
+    border-radius: 4px;
+    margin: 15px 0;
+ }
+ 
+ #feature .fe-box:hover{
+    box-shadow: 10px 10px 54px rgba(070,62,221,0.1);
+ }
+ 
+ 
+ #feature .fe-box h5{
+    padding: 9px 8px 6px 8px;
+    line-height: 2;
+    border-radius: 4px;
+    background-color: teal;
+    color: white;
+    display: block;
+ 
+ }
+ 
+ #feature{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+ }
+ 
+ 
+ #banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(img/bg2.jpeg);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+ 
+ 
+ }
+ #banner h4{
+    color: black;
+    font-size: 35px;
+    margin-bottom: 10px;
+ 
+ }
+ 
+ #banner h2{
+    font-size: 30px;
+    padding: 10px 0;
+    color: black;
+ }
+ 
+ #banner h2 span {
+    color: red;
+ }
+ 
+ #banner .normal1,
+ #banner a
+ {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: black;
+    background-color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+    text-decoration: none;
+ }
+ 
+ #bannner button:hover{
+    background: #088178;
+    color: #fff;
+ }
+ 
+ #sm-banner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+ }
+ 
+ #sm-banner .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url();
+    min-width: 500px;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+ 
+ }
+ 
+ #sm-banner h4{
+    color: black;
+    font-size:20px;
+    font-weight: 800;
+ }
+ 
+ #sm-banner h2{
+    color: black;
+    font-size:28px;
+    font-weight: 800;
+ }
+ 
+ #sm-banner span{
+    color: black;
+    font-size:14px;
+    font-weight: 500;
+    padding-bottom: 15px;
+ }
+ 
+ button.white{
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 18px;
+    color: #fff;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid #fff;
+    outline: none;
+    transition: 0.2s;
+ 
+ }
+ #sm-banner .banner-box{
+    background: #088178;
+    border: 1px solid #088178;
+ }
+ 
+ #sm-banner .banner-box2{
+    background-image: url();
+ }
+ 
+ #banner3 .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url();
+    min-width: 30%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin-bottom: 20px;
+ }
+ 
+ #banner3 h2{
+    color: black;
+    font-size:20px;
+    font-weight: 800;
+ }
+ #banner3 h4{
+    color: black;
+    font-size:20px;
+    font-weight: 800;
+ }
+ 
+ #banner3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 80px;
+ }
+ 
+ #banner3 .banner-box2{
+ background-image: url();
+ }
+ 
+ #banner3 .banner-box3{
+    background-image: url();
+ }
+ 

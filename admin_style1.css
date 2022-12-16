@@ -67,7 +67,7 @@ section{
    border:var(--border);
    background-color: var(--white);
    color:var(--red);
-   font-size: 10rem;
+   font-size: 2rem;
 }
 
 .message{
