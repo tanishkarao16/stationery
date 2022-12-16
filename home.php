@@ -116,22 +116,10 @@ if(isset($_POST['add_to_cart'])){
 
 </section>
 
-<section class="about">
-
-   <div class="flex">
-
-      <div class="image">
-         <img src="images/about-img.jpg" alt="">
-      </div>
-
-      <div class="content">
-         <h3>about us</h3>
-         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit quos enim minima ipsa dicta officia corporis ratione saepe sed adipisci?</p>
-         <a href="about.php" class="btn">read more</a>
-      </div>
-
-   </div>
-
+<section id="banner" class="section-m1" >
+        <h4>UPTO <span>50% OFF</span> ON ALL STATIONERY PURCHASES</h4>
+        <h2>for office and school items.</h2>
+        <button class="normal1"><a href="shop.php">EXPLORE MORE</a></button>
 </section>
 
 <section class="home-contact">

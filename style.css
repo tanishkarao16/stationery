@@ -978,3 +978,158 @@ html{
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
+
+#banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(img/bg2.jpeg);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+
+
+}
+#banner h4{
+    color: black;
+    font-size: 35px;
+    margin-bottom: 10px;
+
+}
+
+#banner h2{
+    font-size: 30px;
+    padding: 10px 0;
+    color: black;
+}
+
+#banner h2 span {
+    color: red;
+}
+
+#banner .normal1,
+#banner a
+{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: black;
+    background-color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+    text-decoration: none;
+}
+
+#bannner button:hover{
+    background: #088178;
+    color: #fff;
+}
+
+#sm-banner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#sm-banner .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url();
+    min-width: 500px;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+
+}
+
+#sm-banner h4{
+    color: black;
+    font-size:20px;
+    font-weight: 800;
+}
+
+#sm-banner h2{
+    color: black;
+    font-size:28px;
+    font-weight: 800;
+}
+
+#sm-banner span{
+    color: black;
+    font-size:14px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+button.white{
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 18px;
+    color: #fff;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid #fff;
+    outline: none;
+    transition: 0.2s;
+
+}
+#sm-banner .banner-box{
+    background: #088178;
+    border: 1px solid #088178;
+}
+
+#sm-banner .banner-box2{
+    background-image: url();
+}
+
+#banner3 .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url();
+    min-width: 30%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#banner3 h2{
+    color: black;
+    font-size:20px;
+    font-weight: 800;
+}
+#banner3 h4{
+    color: black;
+    font-size:20px;
+    font-weight: 800;
+}
+
+#banner3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 80px;
+}
+
+#banner3 .banner-box2{
+background-image: url();
+}
+
+#banner3 .banner-box3{
+    background-image: url();
+}
