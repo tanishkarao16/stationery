@@ -21,13 +21,13 @@ if(isset($message)){
             <a href="#" class="fab fa-instagram"></a>
             <a href="#" class="fab fa-linkedin"></a>
          </div>
-         <p> new <a href="login.php">login</a> | <a href="register.php">register</a> </p>
+         <p> <a href="login.php">Login</a> | NEW?  <a href="register.php">Register</a> </p>
       </div>
    </div>
 
    <div class="header-2 navbar bg-light">
       <div class="flex">
-         <a href="login.php"><img src="img/logo.jpeg" width="100px" class="logo" alt="Image of the logo"></a>
+         <a href="login.php"><img src="img/logo.jpeg" width="65px" class="logo" alt="Image of the logo"></a>
 
          <nav class="navbar">
             <a href="home.php">Home</a>
